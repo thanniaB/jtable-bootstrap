@@ -385,7 +385,7 @@ THE SOFTWARE.
 
         /* Loads data using AJAX call, clears table and fills with new data.
         *************************************************************************/
-        load: function (postData, completeCallback) {
+        load: function (postData, completeCallback) {            
             this._lastPostData = postData;
             this._reloadTable(completeCallback);
         },
@@ -1043,7 +1043,7 @@ THE SOFTWARE.
             }
 
             //click event
-            if (item.click) {
+            if (item.click) {               
                 $toolBarItem.click(function () {
                     item.click();
                 });
@@ -2014,6 +2014,8 @@ THE SOFTWARE.
         /* Creates and prepares add new record dialog div
         *************************************************************************/
         _createAddRecordDialogDiv: function () {
+
+
             var self = this;
 
             //Create a div for dialog and add to container element
@@ -2022,6 +2024,7 @@ THE SOFTWARE.
 
             //Prepare dialog
             self._$addRecordDiv.dialog({
+
                 autoOpen: false,
                 show: self.options.dialogShowEffect,
                 hide: self.options.dialogHideEffect,
@@ -2039,6 +2042,7 @@ THE SOFTWARE.
                             id: 'AddRecordDialogSaveButton',
                             text: self.options.messages.save,
                             click: function () {
+
                                 self._onSaveClickedOnCreateForm();
                             }
                         }],
@@ -2065,6 +2069,7 @@ THE SOFTWARE.
                     text: self.options.messages.addNewRecord,
                     click: function () {
                         self._showAddRecordForm();
+                        
                     }
                 });
             }
@@ -2185,7 +2190,7 @@ THE SOFTWARE.
         /* Shows add new record dialog form.
         *************************************************************************/
         _showAddRecordForm: function () {
-            var self = this;
+            var self = this;            
 
             //Create add new record form
             var $addRecordForm = $('<form id="jtable-create-form" class="jtable-dialog-form jtable-create-form"></form>');
@@ -2235,6 +2240,8 @@ THE SOFTWARE.
                 return false;
             });
 
+           /* console.debug();
+                    debugger*/
             //Open the form
             self._$addRecordDiv.append($addRecordForm).dialog('open');
             self._trigger("formCreated", null, { form: $addRecordForm, formType: 'create' });
