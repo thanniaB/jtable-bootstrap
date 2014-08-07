@@ -1,4 +1,4 @@
-﻿/* 
+/* 
 
 jTable 2.4.0
 http://www.jtable.org
@@ -1007,8 +1007,14 @@ THE SOFTWARE.
                 return null;
             }
 
-            var $toolBarItem = $('<span></span>')
+            /*var $toolBarItem = $('<span></span>')
                 .addClass('jtable-toolbar-item')
+                .appendTo(this._$toolbarDiv);*/
+
+            var $toolBarItem = $('<a></a>')
+                .addClass('jtable-toolbar-item')
+                .attr('data-toggle', 'modal')
+                .attr('data-target', '#basicModal')
                 .appendTo(this._$toolbarDiv);
 
             this._jqueryuiThemeAddClass($toolBarItem, 'ui-widget ui-state-default ui-corner-all', 'ui-state-hover');
@@ -2018,6 +2024,10 @@ THE SOFTWARE.
 
             var self = this;
 
+            $(".btn-primary").on("click", function () {
+                                self._onSaveClickedOnCreateForm();
+                            });
+
             //Create a div for dialog and add to container element
             self._$addRecordDiv = $('<div />')
                 .appendTo(self._$mainContainer);
@@ -2042,7 +2052,6 @@ THE SOFTWARE.
                             id: 'AddRecordDialogSaveButton',
                             text: self.options.messages.save,
                             click: function () {
-
                                 self._onSaveClickedOnCreateForm();
                             }
                         }],
@@ -2068,8 +2077,7 @@ THE SOFTWARE.
                     cssClass: 'jtable-toolbar-item-add-record',
                     text: self.options.messages.addNewRecord,
                     click: function () {
-                        self._showAddRecordForm();
-                        
+                        self._showAddRecordForm();                        
                     }
                 });
             }
@@ -2233,8 +2241,8 @@ THE SOFTWARE.
                     }));
             }
 
-            self._makeCascadeDropDowns($addRecordForm, undefined, 'create');
-
+            self._makeCascadeDropDowns($addRecordForm, undefined, 'create');              
+                
             $addRecordForm.submit(function () {
                 self._onSaveClickedOnCreateForm();
                 return false;
@@ -2242,8 +2250,9 @@ THE SOFTWARE.
 
            /* console.debug();
                     debugger*/
+
             //Open the form
-            self._$addRecordDiv.append($addRecordForm).dialog('open');
+            //self._$addRecordDiv.append($addRecordForm).dialog('open');
             self._trigger("formCreated", null, { form: $addRecordForm, formType: 'create' });
         },
 

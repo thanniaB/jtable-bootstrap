@@ -1,5 +1,10 @@
 <head>
 	<script type="text/javascript" src="jquery-2.1.1.js"></script>
+	<!-- Include Bootstrap styles. -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+	<!-- Include Bootstrap script file. -->
+	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
 	<!-- Include jQuery-ui styles. -->
 	<link href="jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 	<link href="jquery-ui/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
@@ -41,10 +46,10 @@
 	        });
 	        $.mockjax({
 	            url: /^.+CreatePerson$/,
-	            
+
 	            response: function (settings) {
 	            	var queryString = parseQueryString(settings.data);
-				    this.responseText = { "Result":"OK", "Record": {"PersonId":7,"Name": queryString.Name,"Age": queryString.Age,"RecordDate":"\/Date(1320262185197)\/"}};	   	
+				    this.responseText = { "Result":"OK", "Record": {"PersonId":7,"Name": queryString.Name,"Age": queryString.Age,"RecordDate":"\/Date(1320262185197)\/"}};  	
 				    
 				}
 	        });
@@ -89,4 +94,23 @@
 
 	    });
 	</script>
+
+	<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+	    <div class="modal-dialog modal-sm">
+	        <div class="modal-content modal-width">
+	            <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+	            <h4 class="modal-title" id="myModalLabel">Add a New Record</h4>
+	            </div>
+	            <div class="modal-body">
+
+	            </div>
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+	                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+	        </div>
+	    </div>
+	  </div>
+	</div>
+
 </body>

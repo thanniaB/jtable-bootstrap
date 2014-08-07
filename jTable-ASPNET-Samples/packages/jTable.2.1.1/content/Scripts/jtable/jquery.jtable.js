@@ -1711,11 +1711,12 @@ THE SOFTWARE.
             }
 
             //Create a div for dialog and add to container element
-            self._$addRecordDiv = $('<div />')
+            self._$addRecordDiv = $('<div class="modal fade" />')
                 .appendTo(self._$mainContainer);
 
+
             //Prepare dialog
-            self._$addRecordDiv.dialog({
+            self._$addRecordDiv.modal({
                 autoOpen: false,
                 show: self.options.dialogShowEffect,
                 hide: self.options.dialogHideEffect,
