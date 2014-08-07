@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 
 jTable 2.4.0
 http://www.jtable.org
@@ -30,6 +30,9 @@ THE SOFTWARE.
 /************************************************************************
 * CORE jTable module                                                    *
 *************************************************************************/
+
+
+
 (function ($) {
 
     var unloadingPage;
@@ -1013,8 +1016,8 @@ THE SOFTWARE.
 
             var $toolBarItem = $('<a></a>')
                 .addClass('jtable-toolbar-item')
-                .attr('data-toggle', 'modal')
-                .attr('data-target', '#basicModal')
+//                .attr('data-toggle', 'modal')
+//                .attr('data-target', '#addRecordModal')
                 .appendTo(this._$toolbarDiv);
 
             this._jqueryuiThemeAddClass($toolBarItem, 'ui-widget ui-state-default ui-corner-all', 'ui-state-hover');
@@ -2023,17 +2026,34 @@ THE SOFTWARE.
 
 
             var self = this;
+            var modalDialog = $('<div class="modal-dialog modal-sm" />'),
+                modalContent = $('<div class="modal-content modal-width" />'),
+                modalHeader = $('<div class="modal-header" />'),
+                modalBody =  $('<div class="modal-body" />'),
+                modalFooter = $('<div class="modal-footer" />'),
+                xButton = $('<button type="button" class="close" data-dismiss="modal">X</button>'),
+                modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
+                saveButton = $('<button type="button" class="btn btn-primary" data-dismiss="modal"> Save </button>'),
+                cancelButton = $('<button type="button" class="btn btn-default" data-dismiss="modal"> Cancel </button>');
 
-            $(".btn-primary").on("click", function () {
-                                self._onSaveClickedOnCreateForm();
-                            });
+            modalTitle.css("display", "inline");
+            xButton.css("float", "right");
+            modalHeader.css("overflow", "hidden");
+
 
             //Create a div for dialog and add to container element
-            self._$addRecordDiv = $('<div />')
+            self._$addRecordDiv = $('<div class = "modal fade" id = "addRecordModal"/>')
                 .appendTo(self._$mainContainer);
 
+            modalHeader.append(modalTitle, xButton);
+            modalFooter.append(cancelButton, saveButton);
+            modalContent.append(modalHeader, modalBody, modalFooter);
+            modalDialog.append(modalContent);
+            self._$addRecordDiv.append(modalDialog);
+
+
             //Prepare dialog
-            self._$addRecordDiv.dialog({
+/*            self._$addRecordDiv.dialog({
 
                 autoOpen: false,
                 show: self.options.dialogShowEffect,
@@ -2062,7 +2082,7 @@ THE SOFTWARE.
                     self._setEnabledOfDialogButton($saveButton, true, self.options.messages.save);
                     $addRecordForm.remove();
                 }
-            });
+            })*/;
 
             if (self.options.addRecordButton) {
                 //If user supplied a button, bind the click event to show dialog form
@@ -2252,7 +2272,11 @@ THE SOFTWARE.
                     debugger*/
 
             //Open the form
-            //self._$addRecordDiv.append($addRecordForm).dialog('open');
+            //self._$addRecordDiv.children('modal-body').append($addRecordForm).modal('show'); //look for javascript modal
+
+            var bodyModal = self._$addRecordDiv.children().children().children('.modal-body');
+            bodyModal.append($addRecordForm);
+            self._$addRecordDiv.modal('show');
             self._trigger("formCreated", null, { form: $addRecordForm, formType: 'create' });
         },
 
