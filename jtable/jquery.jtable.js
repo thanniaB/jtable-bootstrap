@@ -2031,10 +2031,10 @@ THE SOFTWARE.
                 modalHeader = $('<div class="modal-header" />'),
                 modalBody =  $('<div class="modal-body" />'),
                 modalFooter = $('<div class="modal-footer" />'),
-                xButton = $('<button type="button" class="close" data-dismiss="modal">X</button>'),
+                xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
                 modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
-                saveButton = $('<button type="button" class="btn btn-primary" data-dismiss="modal"> Save </button>'),
-                cancelButton = $('<button type="button" class="btn btn-default" data-dismiss="modal"> Cancel </button>');
+                saveButton = $('<button type="button" class="btn btn-primary" id="save" data-dismiss="modal"> Save </button>'),
+                cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>');
 
             modalTitle.css("display", "inline");
             xButton.css("float", "right");
@@ -2050,6 +2050,16 @@ THE SOFTWARE.
             modalContent.append(modalHeader, modalBody, modalFooter);
             modalDialog.append(modalContent);
             self._$addRecordDiv.append(modalDialog);
+
+            self._$addRecordDiv.find('.cancel').click(function (event) {
+                self._$addRecordDiv.modal('hide');
+                self._$addRecordDiv.find('form').first().remove();
+            });
+
+            self._$addRecordDiv.find('#save').click(function (event) {
+                self._onSaveClickedOnCreateForm();
+                self._$addRecordDiv.find('form').first().remove();
+            });
 
 
             //Prepare dialog
@@ -2082,7 +2092,7 @@ THE SOFTWARE.
                     self._setEnabledOfDialogButton($saveButton, true, self.options.messages.save);
                     $addRecordForm.remove();
                 }
-            })*/;
+            });*/
 
             if (self.options.addRecordButton) {
                 //If user supplied a button, bind the click event to show dialog form
@@ -2274,8 +2284,7 @@ THE SOFTWARE.
             //Open the form
             //self._$addRecordDiv.children('modal-body').append($addRecordForm).modal('show'); //look for javascript modal
 
-            var bodyModal = self._$addRecordDiv.children().children().children('.modal-body');
-            bodyModal.append($addRecordForm);
+            self._$addRecordDiv.find('.modal-body').append($addRecordForm);
             self._$addRecordDiv.modal('show');
             self._trigger("formCreated", null, { form: $addRecordForm, formType: 'create' });
         },
