@@ -2026,30 +2026,30 @@ THE SOFTWARE.
 
 
             var self = this;
-            var modalDialog = $('<div class="modal-dialog modal-sm" />'),
-                modalContent = $('<div class="modal-content modal-width" />'),
-                modalHeader = $('<div class="modal-header" />'),
-                modalBody =  $('<div class="modal-body" />'),
-                modalFooter = $('<div class="modal-footer" />'),
-                xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
-                modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
-                saveButton = $('<button type="button" class="btn btn-primary" id="save" data-dismiss="modal"> Save </button>'),
-                cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>');
+            var $modalDialog = $('<div class="modal-dialog modal-sm" />'),
+                $modalContent = $('<div class="modal-content modal-width" />'),
+                $modalHeader = $('<div class="modal-header" />'),
+                $modalBody =  $('<div class="modal-body" />'),
+                $modalFooter = $('<div class="modal-footer" />'),
+                $xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
+                $modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
+                $saveButton = $('<button type="button" class="btn btn-primary" id="save" data-dismiss="modal"> Save </button>'),
+                $cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>');
 
-            modalTitle.css("display", "inline");
-            xButton.css("float", "right");
-            modalHeader.css("overflow", "hidden");
+            $modalTitle.css("display", "inline");
+            $xButton.css("float", "right");
+            $modalHeader.css("overflow", "hidden");
 
 
             //Create a div for dialog and add to container element
             self._$addRecordDiv = $('<div class = "modal fade" id = "addRecordModal"/>')
                 .appendTo(self._$mainContainer);
 
-            modalHeader.append(modalTitle, xButton);
-            modalFooter.append(cancelButton, saveButton);
-            modalContent.append(modalHeader, modalBody, modalFooter);
-            modalDialog.append(modalContent);
-            self._$addRecordDiv.append(modalDialog);
+            $modalHeader.append($modalTitle, $xButton);
+            $modalFooter.append($cancelButton, $saveButton);
+            $modalContent.append($modalHeader, $modalBody, $modalFooter);
+            $modalDialog.append($modalContent);
+            self._$addRecordDiv.append($modalDialog);
 
             self._$addRecordDiv.find('.cancel').click(function (event) {
                 self._$addRecordDiv.modal('hide');
@@ -2115,6 +2115,9 @@ THE SOFTWARE.
 
         _onSaveClickedOnCreateForm: function () {
             var self = this;
+
+            console.debug();
+            debugger
 
             var $saveButton = self._$addRecordDiv.parent().find('#AddRecordDialogSaveButton');
             var $addRecordForm = self._$addRecordDiv.find('form');
@@ -2417,14 +2420,50 @@ THE SOFTWARE.
         /* Creates and prepares edit dialog div
         *************************************************************************/
         _createEditDialogDiv: function () {
-            var self = this;
+           /* var self = this;
 
             //Create a div for dialog and add to container element
             self._$editDiv = $('<div></div>')
+                .appendTo(self._$mainContainer);*/
+
+            var self = this;
+            var $modalDialog = $('<div class="modal-dialog modal-sm" />'),
+                $modalContent = $('<div class="modal-content modal-width" />'),
+                $modalHeader = $('<div class="modal-header" />'),
+                $modalBody =  $('<div class="modal-body" />'),
+                $modalFooter = $('<div class="modal-footer" />'),
+                $xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
+                $modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
+                $saveButton = $('<button type="button" class="btn btn-primary" id="save" data-dismiss="modal"> Save </button>'),
+                $cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>');
+
+            $modalTitle.css("display", "inline");
+            $xButton.css("float", "right");
+            $modalHeader.css("overflow", "hidden");
+
+
+            //Create a div for dialog and add to container element
+            self._$editDiv = $('<div class = "modal fade" id = "addRecordModal"/>')
                 .appendTo(self._$mainContainer);
 
+            $modalHeader.append($modalTitle, $xButton);
+            $modalFooter.append($cancelButton, $saveButton);
+            $modalContent.append($modalHeader, $modalBody, $modalFooter);
+            $modalDialog.append($modalContent);
+            self._$editDiv.append($modalDialog);
+
+            self._$editDiv.find('.cancel').click(function (event) {
+                self._$editDiv.modal('hide');
+                self._$editDiv.find('form').first().remove();
+            });
+
+            self._$editDiv.find('#save').click(function (event) {
+                self._onSaveClickedOnEditForm();
+                self._$editDiv.find('form').first().remove();
+            });
+
             //Prepare dialog
-            self._$editDiv.dialog({
+            /*self._$editDiv.dialog({
                 autoOpen: false,
                 show: self.options.dialogShowEffect,
                 hide: self.options.dialogHideEffect,
@@ -2452,7 +2491,7 @@ THE SOFTWARE.
                     self._setEnabledOfDialogButton($saveButton, true, self.options.messages.save);
                     $editForm.remove();
                 }
-            });
+            });*/
         },
 
         /* Saves editing form to server.
@@ -2462,9 +2501,10 @@ THE SOFTWARE.
             
             //row maybe removed by another source, if so, do nothing
             if (self._$editingRow.hasClass('jtable-row-removed')) {
-                self._$editDiv.dialog('close');
+                self._$editDiv.modal('hide');
                 return;
             }
+
 
             var $saveButton = self._$editDiv.parent().find('#EditDialogSaveButton');
             var $editForm = self._$editDiv.find('form');
@@ -2678,7 +2718,11 @@ THE SOFTWARE.
 
             //Open dialog
             self._$editingRow = $tableRow;
-            self._$editDiv.append($editForm).dialog('open');
+            /*console.debug();
+            debugger*/
+            self._$editDiv.find('.modal-body').append($editForm);
+            self._$editDiv.modal('show');
+            //self._$editDiv.append($editForm).dialog('open');
             self._trigger("formCreated", null, { form: $editForm, formType: 'edit', record: record, row: $tableRow });
         },
 
