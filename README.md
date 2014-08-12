@@ -5,9 +5,9 @@
 * Install and use WebStorm //DONE
 * Read about Grunt and Gulp
 * Integrate with Grunt and Gulp
-	- Test
-	- Serve
+	- Test //DONE
+	- Serve //DONE
 	- Package //DONE
-* Use minified dependency on html
-* Specify dependencies inline (html)
+* Use minified dependency on html //DONE
+* Specify dependencies inline (html) //DONE
 * Set environment vagrant

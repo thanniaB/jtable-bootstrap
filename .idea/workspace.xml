@@ -10,743 +10,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50dffb76-cd9d-49e5-8e86-2c8675af7897" name="Default" comment="starting to work on delete modal">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\Site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\highlight.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\images\Misc\note.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\images\Misc\phone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.selectable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\jquery.ui.tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.accordion.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.autocomplete.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.button.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.core.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.dialog.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.menu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.progressbar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.resizable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.selectable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.slider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.spinner.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.tabs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\base\minified\jquery.ui.tooltip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\images\ui-icons_2d89ef_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\images\ui-icons_525252_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\images\ui-icons_66B3FF_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\images\ui-icons_d4d4d4_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\images\ui-icons_ffffff_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\metroblue\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_217bc0_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_469bdd_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_6da8d5_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_d8e7f3_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\images\ui-icons_f9bd01_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Content\themes\redmond\jquery-ui-1.8.16.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Default.aspx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Default.aspx.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Default.aspx.designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\DemoMethods.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Filtering.aspx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Filtering.aspx.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Filtering.aspx.designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\JTableAspNetWebFormsDemos.csproj" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\JTableAspNetWebFormsDemos.csproj.user" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\MasterChild.aspx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\MasterChild.aspx.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\MasterChild.aspx.designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\PagingAndSorting.aspx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\PagingAndSorting.aspx.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\PagingAndSorting.aspx.designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Properties\AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-1.9.0.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-1.9.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-1.9.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-1.9.0.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-ui-1.10.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-ui-1.10.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jquery-ui-1.9.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\external\json2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\external\json2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\jquery.jtable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\jquery.jtable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\localization\jquery.jtable.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\jtable_basic.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\jtable_basic.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\basic\jtable_basic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\jtable_theme_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\bg-thead.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\gray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\gray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\gray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\gray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\jtable_lightcolor_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\orange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\orange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\orange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\orange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\lightcolor\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\brown\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\brown\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\brown\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\brown\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\crimson\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\crimson\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\crimson\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\crimson\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkorange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkorange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkorange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\darkorange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\jtable_metro_base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\jtable_metro_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\jtable_metro_base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\lightgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\lightgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\lightgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\lightgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\pink\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\pink\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\pink\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\pink\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\purple\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\purple\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\purple\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\purple\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtable\themes\metro\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\jtablesite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushCSharp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushJava.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushSql.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\styles\shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\syntaxhighligher\styles\shThemeDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\validationEngine\jquery.validationEngine-en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\validationEngine\jquery.validationEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Scripts\validationEngine\validationEngine.jquery.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\SimplePeopleList.aspx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\SimplePeopleList.aspx.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\SimplePeopleList.aspx.designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Web.Debug.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Web.Release.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableAspNetWebFormsDemos\packages.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableDemos.sln" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\Site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\highlight.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Misc\note.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Misc\phone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Themes\blue.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Themes\green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Themes\purple.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\images\Themes\red.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.selectable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\jquery.ui.tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.accordion.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.autocomplete.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.button.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.core.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.dialog.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.menu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.progressbar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.resizable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.selectable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.slider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.spinner.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.tabs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\base\minified\jquery.ui.tooltip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\images\ui-icons_2d89ef_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\images\ui-icons_525252_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\images\ui-icons_66B3FF_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\images\ui-icons_d4d4d4_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\images\ui-icons_ffffff_0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\metroblue\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_217bc0_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_469bdd_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_6da8d5_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_d8e7f3_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\images\ui-icons_f9bd01_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Content\themes\redmond\jquery-ui-1.8.16.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Controllers\DemoController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Controllers\HomeController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Controllers\RepositoryBasedController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Global.asax" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Global.asax.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\JTableDemos.suo" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\JTableMvcDemos.csproj" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\JTableMvcDemos.csproj.user" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Properties\AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-1.9.0.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-1.9.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-1.9.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-1.9.0.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-ui-1.10.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-ui-1.10.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jquery-ui-1.9.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\external\json2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\external\json2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\jquery.jtable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\jquery.jtable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\localization\jquery.jtable.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\jtable_basic.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\jtable_basic.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\basic\jtable_basic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\jtable_theme_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\bg-thead.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\gray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\gray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\gray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\gray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\jtable_lightcolor_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\orange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\orange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\orange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\orange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\lightcolor\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\brown\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\brown\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\brown\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\brown\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\crimson\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\crimson\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\crimson\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\crimson\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkorange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkorange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkorange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\darkorange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\jtable_metro_base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\jtable_metro_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\jtable_metro_base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\lightgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\lightgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\lightgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\lightgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\pink\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\pink\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\pink\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\pink\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\purple\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\purple\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\purple\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\purple\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtable\themes\metro\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\jtablesite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushCSharp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushJava.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushSql.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\styles\shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\syntaxhighligher\styles\shThemeDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\validationEngine\jquery.validationEngine-en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\validationEngine\jquery.validationEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Scripts\validationEngine\validationEngine.jquery.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\ColumnHideShow.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\ColumnResizing.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\Filtering.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\Index.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\MasterChild.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\PagingAndSorting.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\SelectingRows.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\Theme.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\TurkishLocalization.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\UsingWithValidationEngine1.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\UsingWithValidationEngine2.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\_FilteredPagedAndSortedServerSideCodes.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\_PagedAndSortedMasterChildServerSideCodes.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Demo\_PagedAndSortedServerSideCodes.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Shared\Error.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Shared\_Layout.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Views\_ViewStart.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Web.Debug.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Web.Release.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\JTableMvcDemos\packages.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Models\City.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Models\Person.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Models\Phone.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Models\Student.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Models\StudentExam.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Properties\AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\ICityRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\IExamRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\IPersonRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\IPhoneRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\IRepositoryContainer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\IStudentRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryCityRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryDataGenerator.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryDataSource.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryExamRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryPersonRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryPhoneRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryRepositoryContainer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Repositories\Memory\MemoryStudentRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Sessions\RepositorySesssion.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\Sessions\RepositorySize.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\jTableSampleDatabaseLayer.csproj" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\jTableSampleDatabaseLayer\packages.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Content\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Modernizr.2.6.2.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Modernizr.2.6.2.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Tools\common.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\Modernizr.2.6.2\Tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0-vsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Content\Scripts\jquery-1.9.0.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Tools\common.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Tools\jquery-1.9.0.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\Tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\jQuery.1.9.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.1.9.0\jQuery.1.9.0.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.all.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.button.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.resizable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.selectable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\jquery.ui.tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.accordion.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.autocomplete.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.button.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.core.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.dialog.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.menu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.progressbar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.resizable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.selectable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.slider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.spinner.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.tabs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Content\themes\base\minified\jquery.ui.tooltip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Scripts\jquery-ui-1.10.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Content\Scripts\jquery-ui-1.10.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Tools\common.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\Tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\jQuery.UI.Combined.1.10.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jQuery.UI.Combined.1.10.0\jQuery.UI.Combined.1.10.0.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\extensions\jquery.jtable.aspnetpagemethods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\external\json2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\external\json2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\jquery.jtable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\jquery.jtable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\localization\jquery.jtable.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\jtable_basic.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\jtable_basic.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\basic\jtable_basic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\jtable_theme_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\bg-thead.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\gray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\gray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\gray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\gray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\jtable_lightcolor_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\orange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\orange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\orange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\orange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\lightcolor\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\blue\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\blue\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\blue\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\blue\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\brown\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\brown\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\brown\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\brown\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\crimson\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\crimson\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\crimson\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\crimson\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkorange\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkorange\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkorange\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\darkorange\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\green\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\green\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\green\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\green\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\jtable_metro_base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\jtable_metro_base.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\jtable_metro_base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\lightgray\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\lightgray\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\lightgray\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\lightgray\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\pink\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\pink\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\pink\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\pink\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\purple\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\purple\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\purple\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\purple\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\red\jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\red\jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\red\jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\content\Scripts\jtable\themes\metro\red\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\jTable.2.1.1.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\jTable.2.1.1\jTable.2.1.1.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jTable-ASPNET-Samples\packages\repositories.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\external\jquery\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jquery-ui\jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\jtable\jquery.jtable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\prueba.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\datepicker\css\datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\datepicker\js\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\datepicker\less\datepicker.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\external\jquery\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.structure.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.structure.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator.NSL-TBLANCHET\Documents\GitHub\jtable-bootstrap\vendor\jquery-ui\jquery-ui.theme.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jtable/jquery.jtable.js" afterPath="$PROJECT_DIR$/jtable/jquery.jtable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prueba.html" afterPath="$PROJECT_DIR$/prueba.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jtable-bootstrap.iws" />
@@ -770,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="prueba.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prueba.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52040815" vertical-offset="0" max-vertical-offset="1870">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -783,8 +90,28 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1207">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-original.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-original.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="25" column="96" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -803,8 +130,8 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="102" max-vertical-offset="357">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -820,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="306">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="679">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -858,11 +185,14 @@
         <option value="$PROJECT_DIR$/jTable-ASPNET-Samples/packages/jTable.2.1.1/content/Scripts/jtable/jquery.jtable.js" />
         <option value="$PROJECT_DIR$/jtable/jquery.jtable.js" />
         <option value="$PROJECT_DIR$/datepicker/css/datepicker.css" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/../ejercicios-thannia/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/prueba.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index-inline.html" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -875,9 +205,8 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="34" />
-    <option name="width" value="1400" />
+    <option name="x" value="-17" />
+    <option name="width" value="1149" />
     <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -921,6 +250,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jtable-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtable-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jtable-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1050,15 +393,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="34" width="1400" height="860" extended-state="0" />
-    <editor active="true" />
+    <frame x="-17" y="0" width="1149" height="860" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2594524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13078035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15975288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1096,14 +439,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
@@ -1122,14 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1853">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jtable/jquery.jtable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="26775" max-vertical-offset="87788">
@@ -1137,14 +464,6 @@
           <folding>
             <marker date="1407770550679" expanded="false" signature="118638:118670" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jtable/jquery.jtable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="35787" max-vertical-offset="87040">
@@ -1173,14 +484,6 @@
           <folding>
             <marker date="1407770550679" expanded="false" signature="118638:118670" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1302" max-vertical-offset="1751">
-          <caret line="87" column="35" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jtable/jquery.jtable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="38233" max-vertical-offset="85646">
@@ -1212,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jtable/jquery.jtable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="38101" max-vertical-offset="85697">
@@ -1227,14 +514,6 @@
           <folding>
             <marker date="1407770550679" expanded="false" signature="118638:118670" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,26 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ejercicios-thannia/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="238">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="102" max-vertical-offset="357">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1290,6 +553,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ejercicios-thannia/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="712">
@@ -1298,18 +569,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/index-original.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="25" column="96" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba.html">
+    <entry file="file://$PROJECT_DIR$/index-inline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52040815" vertical-offset="0" max-vertical-offset="1870">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="681224">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+          <folding>
+            <element signature="e#163231#163316#2" expanded="true" />
+            <element signature="e#189746#189831#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ejercicios-thannia/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1207">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="679">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
