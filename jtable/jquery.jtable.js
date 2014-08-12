@@ -1010,14 +1010,8 @@ THE SOFTWARE.
                 return null;
             }
 
-            /*var $toolBarItem = $('<span></span>')
+            var $toolBarItem = $('<span></span>')
                 .addClass('jtable-toolbar-item')
-                .appendTo(this._$toolbarDiv);*/
-
-            var $toolBarItem = $('<a></a>')
-                .addClass('jtable-toolbar-item')
-//                .attr('data-toggle', 'modal')
-//                .attr('data-target', '#addRecordModal')
                 .appendTo(this._$toolbarDiv);
 
             this._jqueryuiThemeAddClass($toolBarItem, 'ui-widget ui-state-default ui-corner-all', 'ui-state-hover');
@@ -1595,6 +1589,7 @@ THE SOFTWARE.
             }
             
             var displayFormat = field.displayFormat || this.options.defaultDateFormat;
+
             $input.datepicker({ dateFormat: displayFormat });
             return $('<div />')
                 .addClass('jtable-input jtable-date-input')
@@ -2116,9 +2111,6 @@ THE SOFTWARE.
         _onSaveClickedOnCreateForm: function () {
             var self = this;
 
-            console.debug();
-            debugger
-
             var $saveButton = self._$addRecordDiv.parent().find('#AddRecordDialogSaveButton');
             var $addRecordForm = self._$addRecordDiv.find('form');
 
@@ -2288,7 +2280,7 @@ THE SOFTWARE.
             //self._$addRecordDiv.children('modal-body').append($addRecordForm).modal('show'); //look for javascript modal
 
             self._$addRecordDiv.find('.modal-body').append($addRecordForm);
-            self._$addRecordDiv.modal('show');
+            self._$addRecordDiv.modal({backdrop: 'static'});
             self._trigger("formCreated", null, { form: $addRecordForm, formType: 'create' });
         },
 
@@ -2315,7 +2307,7 @@ THE SOFTWARE.
                     self._createRowFromRecord(data.Record), {
                         isNewRow: true
                     });
-                self._$addRecordDiv.dialog("close");
+                self._$addRecordDiv.modal("hide");
             };
 
             $addRecordForm.data('submitting', true); //TODO: Why it's used, can remove? Check it.
@@ -2433,7 +2425,7 @@ THE SOFTWARE.
                 $modalBody =  $('<div class="modal-body" />'),
                 $modalFooter = $('<div class="modal-footer" />'),
                 $xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
-                $modalTitle = $('<h4 class="modal-title" >Add a New Record</h4>'),
+                $modalTitle = $('<h4 class="modal-title" >Edit Record</h4>'),
                 $saveButton = $('<button type="button" class="btn btn-primary" id="save" data-dismiss="modal"> Save </button>'),
                 $cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>');
 
@@ -2721,7 +2713,7 @@ THE SOFTWARE.
             /*console.debug();
             debugger*/
             self._$editDiv.find('.modal-body').append($editForm);
-            self._$editDiv.modal('show');
+            self._$editDiv.modal({backdrop: 'static'});
             //self._$editDiv.append($editForm).dialog('open');
             self._trigger("formCreated", null, { form: $editForm, formType: 'edit', record: record, row: $tableRow });
         },
@@ -2752,7 +2744,7 @@ THE SOFTWARE.
                     self._showUpdateAnimationForRow(self._$editingRow);
                 }
 
-                self._$editDiv.dialog("close");
+                self._$editDiv.modal("hide");
             };
 
 
@@ -2923,11 +2915,63 @@ THE SOFTWARE.
                 return;
             }
 
+            var $modalDialog = $('<div class="modal-dialog modal-sm" />'),
+                $modalContent = $('<div class="modal-content modal-width" />'),
+                $modalHeader = $('<div class="modal-header" />'),
+                $modalBody =  $('<div class="modal-body" />'),
+                $modalFooter = $('<div class="modal-footer" />'),
+                $xButton = $('<button type="button" class="close cancel" data-dismiss="modal">X</button>'),
+                $modalTitle = $('<h4 class="modal-title" >Delete Record</h4>'),
+                $saveButton = $('<button type="button" class="btn btn-primary" id="delete" data-dismiss="modal"> Delete </button>'),
+                $cancelButton = $('<button type="button" class="btn btn-default cancel"  data-dismiss="modal"> Cancel </button>'),
+                $insideWarning = $('<p><span class="glyphicon glyphicon-warning-sign" style="float:left; margin:0 7px 20px 0;"></span><span class="jtable-delete-confirm-message"></span></p>');
+
+            $modalTitle.css("display", "inline");
+            $xButton.css("float", "right");
+            $modalHeader.css("overflow", "hidden");
+
+
             //Create div element for delete confirmation dialog
-            self._$deleteRecordDiv = $('<div><p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span><span class="jtable-delete-confirm-message"></span></p></div>').appendTo(self._$mainContainer);
+            self._$deleteRecordDiv = $('<div class="modal fade"/>').appendTo(self._$mainContainer);
+
+            $modalHeader.append($modalTitle, $xButton);
+            $modalBody.append($insideWarning);
+            $modalFooter.append($cancelButton, $saveButton);
+            $modalContent.append($modalHeader, $modalBody, $modalFooter);
+            $modalDialog.append($modalContent);
+            self._$deleteRecordDiv.append($modalDialog);
+
+            self._$deleteRecordDiv.find('.cancel').click(function (event) {
+                self._$deleteRecordDiv.modal('hide');
+
+            });
+
+            self._$deleteRecordDiv.find('#delete').click(function (event) {
+                //row maybe removed by another source, if so, do nothing
+                if (self._$deletingRow.hasClass('jtable-row-removed')) {
+                    self._$deleteRecordDiv.modal('hide');
+                    return;
+                }
+
+                var $deleteButton = self._$deleteRecordDiv.parent().find('#DeleteDialogButton');
+                self._setEnabledOfDialogButton($deleteButton, false, self.options.messages.deleting);
+                self._deleteRecordFromServer(
+                    self._$deletingRow,
+                    function () {
+                        self._removeRowsFromTableWithAnimation(self._$deletingRow);
+                        self._$deleteRecordDiv.modal('hide');
+                    },
+                    function (message) { //error
+                        self._showError(message);
+                        self._setEnabledOfDialogButton($deleteButton, true, self.options.messages.deleteText);
+                    }
+                );
+
+            });
+
 
             //Prepare dialog
-            self._$deleteRecordDiv.dialog({
+           /* self._$deleteRecordDiv.dialog({
                 autoOpen: false,
                 show: self.options.dialogShowEffect,
                 hide: self.options.dialogHideEffect,
@@ -2969,7 +3013,7 @@ THE SOFTWARE.
                     var $deleteButton = self._$deleteRecordDiv.parent().find('#DeleteDialogButton');
                     self._setEnabledOfDialogButton($deleteButton, true, self.options.messages.deleteText);
                 }
-            });
+            });*/
         },
 
         /************************************************************************
@@ -3188,7 +3232,7 @@ THE SOFTWARE.
         *************************************************************************/
         _showDeleteDialog: function ($row) {
             this._$deletingRow = $row;
-            this._$deleteRecordDiv.dialog('open');
+            this._$deleteRecordDiv.modal({backdrop: 'static'});
         },
 
         /* Performs an ajax call to server to delete record
