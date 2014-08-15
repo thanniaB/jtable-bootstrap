@@ -11,3 +11,4 @@
 * Use minified dependency on html //DONE
 * Specify dependencies inline (html) //DONE
 * Set environment vagrant
+* Set up Ubuntu
